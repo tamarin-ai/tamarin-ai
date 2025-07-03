@@ -1,10 +1,11 @@
 import { Button } from '@/components/ui/button';
 import { Badge } from './ui/badge';
 import { Github } from 'lucide-react';
+import { signIn } from 'next-auth/react';
 
 const Hero7 = () => {
   const handleGetStarted = () => {
-    window.open('https://tamarin.ai', '_blank', 'noopener,noreferrer');
+    signIn('github');
   };
 
   const handleGithub = () => {
@@ -31,8 +32,11 @@ const Hero7 = () => {
               Your AI code reviewer built for accuracy and transparency.
             </p>
             <div className='flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start'>
-              <Button onClick={handleGetStarted} className='w-full'>
-                Get Started
+              <Button
+                onClick={handleGetStarted}
+                className='w-full bg-black/90 hover:bg-black/90 text-white'
+              >
+                Sign in with GitHub
               </Button>
               <Button
                 onClick={handleGithub}
