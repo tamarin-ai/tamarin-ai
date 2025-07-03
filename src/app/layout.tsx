@@ -6,7 +6,7 @@ import Providers from '@/components/Providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'GitPack AI - AI-Powered GitHub Pull Request Reviews',
+  title: 'Tamarin - AI-Powered GitHub Pull Request Reviews',
   description:
     'Automatically review GitHub pull requests with AI. Get intelligent, contextual code reviews with line-specific comments and overall feedback.',
 };

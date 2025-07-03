@@ -57,7 +57,7 @@ export function RepositoryList() {
         <CardContent>
           <div className='text-center py-8'>
             <div className='text-gray-500 mb-4'>
-              No repositories found. Install the GitPack AI GitHub App to get
+              No repositories found. Install the Tamarin GitHub App to get
               started.
             </div>
             <a

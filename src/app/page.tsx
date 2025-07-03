@@ -2,9 +2,9 @@
 
 import { useSession } from 'next-auth/react';
 import { redirect } from 'next/navigation';
-import { Navbar1 } from '@/components/Navbar1';
+import { Navbar } from '@/components/Navbar';
 
-import { Hero7 } from '@/components/Hero7';
+import { Hero } from '@/components/Hero';
 import { Features } from '@/components/Features';
 import { Pricing } from '@/components/Pricing';
 import { Integration } from '@/components/Integration';
@@ -31,10 +31,10 @@ export default function HomePage() {
   return (
     <>
       <div className='min-h-screen bg-white'>
-        <Navbar1 />
+        <Navbar />
 
         <div className='container mx-auto max-w-5xl'>
-          <Hero7 />
+          <Hero />
           <Features />
 
           <Integration />
