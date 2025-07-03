@@ -7,7 +7,6 @@ import { RepositoryList } from '@/components/dashboard/RepositoryList';
 import { StatsCards } from '@/components/dashboard/StatsCards';
 import { InstallationCard } from '@/components/dashboard/InstallationCard';
 import { api } from '@/utils/api';
-import Articcals from './Articcals';
 
 export default function DashboardPage() {
   const { data: session, status } = useSession();
@@ -38,7 +37,6 @@ export default function DashboardPage() {
   return (
     <div className='min-h-screen bg-white'>
       <DashboardHeader />
-      <Articcals />
 
       <main className='max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8'>
         <div className='mb-8'>
