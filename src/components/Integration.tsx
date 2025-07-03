@@ -25,9 +25,9 @@ const Integration = () => {
               Connect Effortlessly with GitHub
             </h1>
             <p className='text-black/80 mb-8 max-w-xl '>
-              GitPack AI connects to your GitHub repositories in just a few
-              clicks. Once set up, it automatically reviews your pull requests,
-              saving you time and effort.
+              Tamarin connects to your GitHub repositories in just a few clicks.
+              Once set up, it automatically reviews your pull requests, saving
+              you time and effort.
             </p>
             <div className='flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start'>
               <Button onClick={handleGetStarted} className='w-full'>

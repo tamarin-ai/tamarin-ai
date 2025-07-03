@@ -3,7 +3,7 @@ import { Badge } from './ui/badge';
 import { Github } from 'lucide-react';
 import { signIn } from 'next-auth/react';
 
-const Hero7 = () => {
+const Hero = () => {
   const handleGetStarted = () => {
     signIn('github');
   };
@@ -59,4 +59,4 @@ const Hero7 = () => {
   );
 };
 
-export { Hero7 };
+export { Hero };

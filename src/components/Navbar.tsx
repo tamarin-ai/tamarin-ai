@@ -45,7 +45,7 @@ interface Navbar1Props {
   menu?: MenuItem[];
 }
 
-const Navbar1 = ({
+const Navbar = ({
   logo = {
     url: '/',
     alt: 'logo',
@@ -126,4 +126,4 @@ const Navbar1 = ({
   );
 };
 
-export { Navbar1 };
+export { Navbar };
